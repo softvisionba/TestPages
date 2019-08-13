@@ -1,0 +1,14 @@
+<html>
+<body>
+<script>
+
+function foo(opts) {
+let {toSource = 42} = opts;
+return toSource;
+}
+
+console.log(foo({}));
+
+</script>
+</body>
+</html>
